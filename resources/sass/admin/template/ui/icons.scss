@@ -1,0 +1,83 @@
+.template {
+	&-ui {
+		&-icons {
+			&-list {
+
+				.ui {
+					&-icon {
+						&-item {
+							
+							transition: .2s all;
+							color: #555b61;
+							cursor: pointer;
+
+							.icon {
+								min-width: 2.5rem;
+								
+								i {
+									font-size: 1.8rem;
+								}
+							}
+
+							.content {
+								transition: .2s all;
+								opacity: .7;
+
+								.name {
+									font-size: 1rem;
+
+									i {
+										transition: .2s all;
+										font-size: .8rem;
+										opacity: 0;
+										visibility: hidden;
+									}
+								}
+
+								.clipboard-status {
+									opacity: 0;
+									visibility: hidden;
+									
+									i {
+										font-size: .9rem;
+										color: #4caf50;
+									}
+
+									&.active {
+										opacity: 1;
+										visibility: visible;
+									}
+								}
+							}
+
+							&:hover {
+								background: #3f51b51c;
+								
+								.content {
+									opacity: 1;
+
+									.name {
+
+										i {
+											opacity: .8;
+											visibility: visible;
+										}
+
+									}
+								}
+
+								button {
+									opacity: 1;
+									visibility: visible;
+								}
+								
+							}
+
+						}
+					}
+				}
+
+			}
+		}
+	}
+}

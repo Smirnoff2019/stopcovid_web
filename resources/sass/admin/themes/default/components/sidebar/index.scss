@@ -1,0 +1,142 @@
+// Head
+$dft-head-cl: #dedede;
+$dft-head-icon-cl: #999;
+
+$dft-head-bg-hover: #393d3f52;
+$dft-head-cl-hover: #fff;
+$dft-head-icon-cl-hover: #fff;
+
+$dft-head-bg-active: #393d3f;
+$dft-head-cl-active: #fff;
+$dft-head-icon-cl-active: #fff;
+
+// Body
+$dft-body-cl: #dedede;
+$dft-body-bg: rgba(99, 98, 98, 0.01);
+
+$dft-body-cl-hover: #fff;
+// $dft-body-bg-hover: #393d3f1c;
+$dft-body-bg-hover: #43484a2b;
+
+// $dft-body-bg-active: #393d3f52;
+$dft-body-bg-active: #393d3f69;
+$dft-body-icon-cl-active: #3e84d7;
+
+.theme-sidebar {
+		
+	background: $default-theme-sidebar;
+
+	&.main-sidebar {
+
+		.sidebar-section {
+
+			position: relative;
+
+			.head {
+				
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				font-size: 1rem;
+				color: $dft-head-cl;
+				transition: .1s all;
+
+				.title {
+
+					i {
+						min-width: 1.5rem;
+						color: $dft-head-icon-cl;
+						transition: .3s all;
+					}
+
+				}
+				
+				.controlls {
+
+					i {
+						color: $dft-head-icon-cl;
+						transition: .3s all;
+					}
+
+				}
+
+				&:hover {
+					background: $dft-head-bg-hover;
+					color: $dft-head-cl-hover;
+
+					i {
+						color: $dft-head-icon-cl-hover;
+					}
+
+				}
+
+				&.active {
+					
+					background: $dft-head-bg-active;
+					color: $dft-head-cl-active;
+
+					i {
+						color: $dft-head-icon-cl-active;
+					}
+				}
+			}
+
+			.body {
+				
+				// opacity: 0;
+				// visibility: hidden;
+				list-style: none;
+				// transition: .3s all;
+
+			    background: $dft-body-bg;
+				box-shadow: rgba(0, 0, 0, 0.43) 0px 1px 10px 0px inset;
+
+				.nav-item {
+
+					.nav-link {
+						color: $dft-body-cl;
+
+						&:hover {
+							color: $dft-body-cl-hover;
+							background: $dft-body-bg-hover;
+						}
+
+						&.active {
+							background: $dft-body-bg-active;
+
+							i {
+								color: $dft-body-icon-cl-active;
+							}
+						}
+					}
+
+				}
+
+			}
+
+			&.treeview {
+
+				&.active {
+
+					.head {
+						.controlls {
+							i {
+								transform: rotate(90deg);	
+							}
+						}
+					}
+
+					// .body {
+					// 	opacity: 1;
+					// 	visibility: visible;
+					// }
+
+				}
+
+			}
+
+		}
+
+	}
+}

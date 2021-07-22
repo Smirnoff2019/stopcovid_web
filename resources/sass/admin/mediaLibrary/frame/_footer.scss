@@ -1,0 +1,39 @@
+&-footer {
+	
+	display: flex;
+	justify-content: flex-end;
+
+	border-top: 1px solid #ddd;
+	padding: 1rem 1rem;
+
+	.controlls {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&-item {
+
+			.dropdown {
+
+				#media-frame-settings-btn {
+					&:after {
+						display: none;
+					}
+				}
+
+				.media-frame-settings-dropdown {
+					min-width: 90vw;
+
+					@media (min-width: 500px) {
+						min-width: 400px;
+					}
+				}
+
+			}
+
+		}
+
+	}
+
+}

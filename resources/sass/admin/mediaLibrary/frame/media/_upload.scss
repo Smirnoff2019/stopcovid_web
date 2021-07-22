@@ -1,0 +1,26 @@
+&-upload {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	&-title {
+		text-align: center;
+		font-size: 1rem;
+		margin-top: -2rem;
+
+		p {
+			margin: 5px 0px;
+
+			&:nth-child(1) {
+				font-size: 1.4rem;
+			}
+
+			&:nth-child(3) {
+				margin-top: 15px;
+			}
+		}
+	}
+
+}

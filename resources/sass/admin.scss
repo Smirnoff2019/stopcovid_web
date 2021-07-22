@@ -1,0 +1,29 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+// Preloader
+@import 'admin/preloader/main';
+
+// Variables
+@import 'admin/variables/text-color';
+
+// Typography
+@import 'admin/typography/main';
+
+// Template
+@import 'admin/template/ui/icons';
+
+// Media Library 
+@import 'admin/mediaLibrary/index';
+
+// Tables
+//@import 'admin/template/tables/tables';
+
+// Themes
+
+	// Default
+	@import 'admin/themes/default/index';
+

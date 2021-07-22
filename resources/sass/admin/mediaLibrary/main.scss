@@ -1,0 +1,37 @@
+$media-library-text-color: #23282d;
+
+.media-library-widget {
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 159800;
+
+	color: $media-library-text-color;
+
+	.media{
+
+		&-modal {
+
+			@import 'modal/backdrop';
+			@import 'modal/frame';
+			@import 'modal/drag-area';
+
+		}
+
+		&-frame {
+			
+			@import 'frame/header';
+			@import 'frame/nav';
+			@import 'frame/body';
+			@import 'frame/footer';
+
+		}
+
+	}
+
+}

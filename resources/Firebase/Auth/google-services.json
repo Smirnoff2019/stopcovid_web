@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "209277409389",
+    "firebase_url": "https://ukrsociality-faf95.firebaseio.com",
+    "project_id": "ukrsociality-faf95",
+    "storage_bucket": "ukrsociality-faf95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209277409389:android:3f55b26449cf19b2f24764",
+        "android_client_info": {
+          "package_name": "ua.kyiv.karantin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209277409389-polr98r1sfv3ub9cc5qjcutakbc3mp2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP9-YvC6zPuFBLHCTKhLfOJHh5ndKBZbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209277409389-polr98r1sfv3ub9cc5qjcutakbc3mp2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

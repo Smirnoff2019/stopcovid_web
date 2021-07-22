@@ -1,0 +1,12 @@
+&-views {
+	height: 100%;
+	display: flex;
+
+	.attachments {
+
+		@import 'attachments/box';
+		@import 'attachments/list';
+		@import 'attachments/info';
+
+	}
+}

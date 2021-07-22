@@ -1,0 +1,15 @@
+
+@import './variables/main';
+
+.theme {
+
+	&-default {
+
+		@import './components/navbar/index';
+		@import './components/sidebar/index';
+		@import './components/content/main';
+		@import './components/code/simple';
+
+	}
+
+}

@@ -1,0 +1,26 @@
+&-info {
+    width: 30%;
+    padding: 0 16px 10px;
+    background: #f3f3f3;
+    border-left: 1px solid #ddd;
+    overflow: auto;
+
+    .form-control {
+		font-size: inherit;
+	}
+
+	#attachments-info-form {
+		display: none;
+
+		img {
+			width: auto;
+			max-height: 350px;
+			max-width: 100%;
+		}
+	}
+
+	#attachments-info-prompt {
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+&-body {
+	height: 100%;
+	overflow: hidden;
+	
+	.frame-body {
+		
+		&-tabs {
+			
+			&-content {
+				height: 100%;
+				border-top: 1px solid #ddd;
+
+				.tab-pane {
+					height: 100%;
+
+					.media { 
+
+						@import 'media/upload';
+						@import 'media/views';
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

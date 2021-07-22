@@ -1,0 +1,121 @@
+xmp {
+	&.code {
+		font-size: 16px;
+		background: #222222;
+		color: #f1f1f1;
+	    padding: 0rem 1rem;
+	    box-shadow: inset 0px 0px 3px 0px #4CAF50;
+	    border-radius: 5px;
+		
+		// Теги (<span></span>)
+		.tag {
+			color: #f9265d;
+		}
+		// Пробелы и текст
+		.pln {
+			color: #fff;
+		}
+		// Атрибуты (class, tyle, id ...)
+		.atn {
+			color: #7cbb1b;
+		}
+		// Значение атрибутов ("my-class")
+		.atv {
+			color: #ffad34;
+		}
+		// Символы (= ....)
+		.pun {
+			color: #fff;
+		}
+
+	}
+}
+.code {
+	&-simple {
+
+		word-spacing: -3px;
+		font-size: 16px;
+		background: #222222;
+		color: #f1f1f1;
+	    padding: .7rem 1rem;
+	    box-shadow: inset 0px 0px 3px 0px #4CAF50;
+	    border-radius: 5px;
+
+		.c {
+
+			&-sint {
+				color: #f1f1f1;
+			}
+
+			&-tag {
+				color: #f9265d;
+			}
+
+			&-attr {
+				color: #7cbb1b;
+			}
+
+			&-attr-value {
+				color: #e6c754;
+				letter-spacing: .6px;
+				word-spacing: 0px;
+			}
+
+			&-red {
+				color: #f9265d;
+			}
+
+			&-while {
+				color: #f1f1f1;
+			}
+
+			&-green {
+				color: #7cbb1b;
+			}
+
+			&-yellow {
+				color: #e6c754;
+			}
+
+			&-blue {
+				color: #3498da;
+			}
+
+			&-text {
+				color: #e6c754;
+				letter-spacing: .3px;
+				word-spacing: 0px;
+			}
+		}
+	}
+
+	&-variable {
+	    font-weight: 600;
+    	font-size: 16px;
+    	color: #007bff;
+	}
+}
+
+.rainbow-box {
+	font-size: 1rem;
+	border-radius: 5px;
+	// box-shadow: inset 0px 3px 23px 0px #0000004d;
+	overflow: hidden;
+
+	pre {
+		font-size: 1rem;
+	}
+
+	.code-header {
+		overflow: hidden;
+    	border-radius: 6px 6px 0px 0px;
+
+    	.controlls {
+    		background: #dadada;
+    		cursor: pointer;
+    		i {
+    			cursor: pointer;
+    		}
+    	}
+	}
+}

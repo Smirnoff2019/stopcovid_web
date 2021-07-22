@@ -1,0 +1,13 @@
+.theme {
+
+	&-navbar {
+		
+		background: $default-theme-navbar;
+		
+		.navbar-dark {
+		    color: $default-theme-navbar-dark-text-color;
+		}
+
+	}
+
+}

@@ -1,0 +1,45 @@
+&-drag-area {
+
+	display: none;
+	background: rgba(0,86,132,.9);
+	position: fixed;
+    z-index: 250000;
+    opacity: 0;
+    transition: opacity 250ms;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+
+	&.active {
+		display: block;
+    	opacity: 1;
+	}
+	
+	.drag-area {
+
+		&-border {
+		    width: 100%;
+		    height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		    border: 1px dashed #fff;
+		}
+
+		&-title {
+		    font-size: 3em;
+		    line-height: 1.3;
+		    font-weight: 600;
+		    color: #fff;
+		    margin: 0;
+		    padding: 0 10px;
+
+		    position: absolute;
+		    z-index: -1;
+		}
+	}
+}
